@@ -91,11 +91,13 @@ body {
 }
 
 .prepartion-list {
-  list-style-position: inside;
+  list-style-position: outside;
+  padding-left: 24px;
 }
 
 .recipe-instructions-list {
-  list-style-position: inside;
+  list-style-position: outside;
+  padding-left: 24px;
 }
 
 li .instruction-wrapper {
