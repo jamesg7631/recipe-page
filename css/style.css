@@ -44,7 +44,7 @@
 
 .text-preset-3 {
   font-family: "Outfit", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--stone-900);
 }
 
@@ -52,6 +52,18 @@
   font-family: "Outfit", sans-serif;
   font-weight: 700;
   color: var(--rose-800);
+}
+
+.text-preset-5 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: var(--brown);
+  margin-bottom: 16px;
+}
+
+hr {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 body {
@@ -74,10 +86,23 @@ body {
   padding: 16px;
 }
 
+.preparation-title {
+  margin-bottom: 16px;
+}
+
 .prepartion-list {
   list-style-position: inside;
 }
 
+.recipe-instructions-list {
+  list-style-position: inside;
+}
+
+li .instruction-wrapper {
+  position: relative;
+  left: 20px;
+  margin-bottom: 16px;
+}
 .card {
   width: clamp(300px, 60vw, 700px);
   background-color: white;
