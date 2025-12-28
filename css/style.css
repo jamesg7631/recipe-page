@@ -1,7 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+:root {
+  /* Colors */
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+
+  /* Spacing */
+}
+
+.text-preset-1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: var(--stone-900);
+  /* I eyeballed the font-size. The spec only says the body size */
+}
+
+.text-preset-2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+.text-preset-3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+
+.text-preset-4 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
 }
