@@ -8,6 +8,12 @@
   color: hsl(228, 45%, 44%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   /* Colors */
   --white: hsl(0, 0%, 100%);
@@ -17,7 +23,7 @@
   --stone-900: hsl(24, 5%, 18%);
   --brown: hsl(14, 45%, 36%);
   --rose-800: hsl(332, 51%, 32%);
-  --rose-50: hsl(330, 100%, 98%);
+  --rose-50: #fff7fc;
 
   /* Spacing */
 }
@@ -32,15 +38,57 @@
 
 .text-preset-2 {
   font-family: "Outfit", sans-serif;
+  color: var(--stone-600);
   font-weight: 400;
 }
 
 .text-preset-3 {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
+  color: var(--stone-900);
 }
 
 .text-preset-4 {
   font-family: "Outfit", sans-serif;
   font-weight: 700;
+  color: var(--rose-800);
+}
+
+body {
+  font-size: 16px;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 128px;
+}
+.recipe-title {
+  margin-bottom: 16px;
+}
+.recipe-description {
+  margin-bottom: 16px;
+}
+
+.recipe-preparation {
+  background-color: var(--rose-50);
+  padding: 16px;
+}
+
+.prepartion-list {
+  list-style-position: inside;
+}
+
+.card {
+  width: clamp(300px, 60vw, 700px);
+  background-color: white;
+  padding: 32px;
+  flex-grow: 1;
+  border-radius: 16px;
+}
+
+.omelette-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
 }
